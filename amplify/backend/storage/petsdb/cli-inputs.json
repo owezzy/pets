@@ -1,0 +1,14 @@
+{
+  "resourceName": "petsdb",
+  "tableName": "name",
+  "partitionKey": {
+    "fieldName": "names",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "type",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
