@@ -49,9 +49,9 @@ function App() {
               <button>Add Pet</button>
           </form>
           <ul>
-              { pets.map((pet) => (
+              { pets.map((pet,index) => (
                   // @ts-ignore
-                  <li key={pet.names}> {pet.names} </li>
+                  <li key={index}> {pet.names} </li>
               )) }
           </ul>
 

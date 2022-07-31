@@ -21,6 +21,12 @@
           "deploymentBucketName": "amplify-pets-dev-182551-deployment",
           "s3Key": "amplify-builds/petsfunction-333063414f4563666133-build.zip"
         }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1cv5k94doo8tq",
+          "type": "cicd"
+        }
       }
     }
   }
